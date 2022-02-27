@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+.head td{
+    font-size: 25px;
+    font-weight: bold;
+}
+td{
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+}
+aside{
+    max-width: 20%;
+    margin-left: 80%;
+    text-align: center;
+    background-color: gray;
+    border: 1ps solid rgba(255, 0, 0, 0.205);
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 0, 0, 0.226);
+    padding: 25px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.video{
+    margin-top: 10%;
+    max-width: 60%;
+    margin-left: 30%;
+}
+.connect{
+    text-align: center;
+}
+.connect i{
+    margin: 10px;
+    font-size: 25px;
+}
